@@ -1,4 +1,3 @@
-
 chrome/app-chrome.manifest
 chrome/chrome.rdf
 chrome/en-US-mail.jar
@@ -21,9 +20,11 @@ chrome/icons/default/msgcomposeWindow16.xpm
 components/accessibility-atk.xpt
 components/airbag.xpt
 components/bookmarks.xpt
+components/chardet.xpt
 components/downloadmanager.xpt
 components/compreg.dat
 components/components.list
+components/dom_loadsave.xpt
 components/history.xpt
 components/jsconsole.xpt
 components/layout.xpt
@@ -42,6 +43,8 @@ components/nsExtensionManager.js
 components/nsInterfaceInfoToIDL.js
 components/nsLDAPPrefsService.js
 components/nsProgressDialog.js
+components/nsProxyAutoConfig.js
+components/nsProxyAutoConfig.manifest
 components/nsScriptableIO.js
 components/nsUnsetDefaultMail.js
 components/nsUrlClassifierTable.js
@@ -72,6 +75,7 @@ components/myspell/en-US.aff
 components/myspell/
 D3DCompiler_42.dll
 d3dx9_42.dll
+d3dx9_43.dll
 defaults/isp/dotmac.rdf
 defaults/isp/movemail.rdf
 defaults/isp/rss.rdf
@@ -110,6 +114,9 @@ defaults/wallet/DistinguishedSchema.tbl
 defaults/wallet/SchemaStrings.tbl
 defaults/wallet/PositionalSchema.tbl
 defaults/wallet/StateSchema.tbl
+distribution/
+distribution/extensions/
+distribution/extensions/tbtestpilot@labs.mozilla.com.xpi
 greprefs/all.js
 greprefs/security-prefs.js
 greprefs/xpinstall.js
@@ -150,7 +157,6 @@ hyphenation/hyph_sl.dic
 hyphenation/hyph_sv.dic
 hyphenation/hyph_tr.dic
 hyphenation/hyph_uk.dic
-
 icons/mozicon128.png
 icons/mozicon16.xpm
 icons/mozicon50.xpm
@@ -261,11 +267,10 @@ libprldap50.so
 redo-prebinding.sh
 regxpcom.exe
 xpicleanup
+libxpcom.so
 libxpcom_compat.so
 libxpistub.so
 libzlib.so
-
-
 omni.jar
 chrome/en-US.jar
 chrome/en-US.manifest
@@ -288,7 +293,7 @@ chrome/toolkit.manifest
 components/addonManager.js
 components/amContentHandler.js
 components/amWebInstallListener.js
-components/components.manifest
+components/binary.manifest
 components/ConsoleAPI.js
 components/contentAreaDropListener.js
 components/contentSecurityPolicy.js
@@ -339,7 +344,6 @@ components/nsPlacesAutoComplete.js
 components/nsPlacesDBFlush.js
 components/nsPlacesExpiration.js
 components/nsPrompter.js
-components/nsProxyAutoConfig.js
 components/nsSMTPProtocolHandler.js
 components/nsSetDefaultMail.js
 components/nsTaggingService.js
@@ -500,7 +504,6 @@ res/table-remove-column.gif
 res/table-remove-row-active.gif
 res/table-remove-row-hover.gif
 res/table-remove-row.gif
-
 components/BrandRes.dll
 components/fullsoft.dll
 components/master.ini
@@ -524,13 +527,11 @@ extensions/talkback@mozilla.org/components/talkback/talkback
 extensions/talkback@mozilla.org/components/talkback/XTalkback.ad
 extensions/talkback@mozilla.org/components/talkback/master.ini
 extensions/talkback@mozilla.org/components/talkback/talkback.so
-
 HSAPI.dll
 CondMgr.dll
 mozABConduit.dll
 components/palmsync.dll
 components/palmSync.xpt
-
 components/libaccessibility.so
 components/libappshell.so
 components/libauth.so
@@ -597,7 +598,6 @@ libgtkxtbin.so
 libmozz.so
 libthebes.so
 xpcshell
-
 components/appcomps.dll
 components/editor.dll
 components/gkgfxwin.dll
@@ -609,8 +609,6 @@ components/profilemigration.dll
 components/wlltvwrs.dll
 components/xmlextras.dll
 components/xmlextras.xpt
-
-
 components/activity.xpt
 components/addrbook.xpt
 components/alerts.xpt
@@ -619,7 +617,6 @@ components/appstartup.xpt
 components/autocomplete.xpt
 components/autoconfig.xpt
 components/caps.xpt
-components/chardet.xpt
 components/chrome.xpt
 components/commandhandler.xpt
 components/commandlines.xpt
@@ -642,7 +639,6 @@ components/dom_events.xpt
 components/dom_geolocation.xpt
 components/dom_html.xpt
 components/dom_json.xpt
-components/dom_loadsave.xpt
 components/dom_offline.xpt
 components/dom_range.xpt
 components/dom_sidebar.xpt

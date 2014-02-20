@@ -2,7 +2,7 @@
 # Fichero de configuración de paquetes de personalización de Guadalinex v9
 
 # Nombre del paquete (minúsculas-separado-con-guiones)
-name: guadalinexv9-thunderbird-esr
+name: thunderbird-esr
 
 # Autor 
 author: Roberto C. Morano <rcmorano@emergya.es>
@@ -21,7 +21,7 @@ longdesc: "Guadalinex v9 meta package with compiled version of thunderbird 17.0 
 
 
 # Versión del paquete
-version: 9.0
+version: 24.3.0
 
 # Cambios en esta versión
 changes:
